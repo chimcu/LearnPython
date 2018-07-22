@@ -1,0 +1,13 @@
+file = open("D:\\Python\\Hello.py", "r")
+#cont = file.read()
+#print(cont)
+print(file.read(16))
+print(file.read(4))
+print(file.read(4))
+print(file.read())
+file.close()
+
+file = open("test.txt", "r")
+str = file.read()
+print(len(str))
+file.close()
